@@ -4,7 +4,7 @@ Append each screenful of an Airtable grid to a local buffer, then save or copy t
 
 ## Install
 1. Install Tampermonkey (Chrome/Brave/Edge/Firefox).
-2. Open the raw script file `airtable-incremental-csv.user.js` in this repo and click **Install**.
+2. Open the raw script file [`airtable-incremental-csv.user.js`](https://github.com/TurboKach/airtable-incremental-csv/raw/refs/heads/master/airtable-incremental-csv.user.js) in this repo and click **Install**.
 
 ## Usage
 - Scroll to a screen of rows you want included.
@@ -30,7 +30,7 @@ The buffer is stored in `localStorage` and merges by `data-rowid`. It unions col
   - Cell: `div[data-columnid]` (direct children of a row)
 
 ## Files
-- `airtable-incremental-csv.user.js` — the userscript.
+- [`airtable-incremental-csv.user.js`](https://github.com/TurboKach/airtable-incremental-csv/raw/refs/heads/master/airtable-incremental-csv.user.js) — the userscript.
 
 ## License
 MIT
